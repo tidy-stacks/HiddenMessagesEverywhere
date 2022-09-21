@@ -1,0 +1,69 @@
+/*Browser Reset and Universal Styles*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ body {
+  font-family: 'Dosis', sans-serif;
+  color: #ffffff;
+  font-size:25px;
+  font-weight:100;
+  line-height: normal;
+  background-color: #000000;
+ }
+
+ /*Header*/
+.center{
+  text-align:center;
+  padding: 20px;
+}
+
+.oops{
+  padding-top: 20px;
+  font-family: 'EB Garamond', serif;
+  font-size: 22px
+}
+
+ /*Images*/
+.lockandkey{
+  padding-top:50px;
+  padding-bottom: 400px;
+}
+
+.row {
+	display: flex;
+}
+	
+.column {
+  flex: 50%;
+	padding: 16px;
+	height: 250px;
+}
+
+/*Script*/
+.unlock{ 
+ background-color:#ffffff
+}
+
+.opposite{
+  color:#000000;
+  text-align:center;
+}
+
+.directions{
+  color:#000000;
+  padding:10px;
+  font-size:22px;
+  text-align: justified;
+}
+
+.purple {
+  background-color: #612e74;
+  font-family:'Dosis', sans-serif;
+  font-size: 18px;
+}
+
+.riddle{
+  color:#000000;
+}

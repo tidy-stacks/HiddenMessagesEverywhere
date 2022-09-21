@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF=8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="steganography.min.js"></script>
+	<title>BootCon Steganography Demo</title>
+</head>
+<body>
+    <input type="file" name="image" id="" accept="image/*" onchange="readURL(this)">
+    <div>Original Image:</div>
+    <img id="image1" src="" alt="">
+    <input id="text" type="text">
+    <button onclick="hideText()">Encode Your Secret Message!</button>
+    <div>Encoded Image:</div>
+    <img id="image2" src="" alt="">
+    <div>Reveal Secret Messages:</div>
+    <input type="file" name="image" id="" accept="image/*" onchange="decode(this)">
+    <h2 id="decode"></h2>
+    <script src="index.js"></script>
+</body>
+</html>
